@@ -76,7 +76,7 @@
             background: linear-gradient(to right, var(--background-color), black);
         }
         footer{
-            background-color: #222222;
+            background-color: black;
         }
         .app-icon {
             background-color: var(--highlight-color-1);
@@ -99,6 +99,14 @@
         }
         .fs-4{
             font-size: 3em;
+        }
+        @media only screen and (max-width: 600px) {
+            .mobile-d-block{
+                display: block;
+            }
+            .mobile-p0{
+                padding: 0px;
+            }
         }
     </style>
 </head>
@@ -125,14 +133,14 @@
                     data-aos="fade-up" data-aos-duration="1000">ABOUT US</h1>
                     <p class="mt-1" data-aos="fade-in" data-aos-duration="2500">We're the ultimate hype squad! Our superpowers include creating buzz, managing celebs, and making events rock. Vanquish Media, at your service!</p>
                 </div>    
-                <div class="d-flex mt-2" id="founder-detail">
+                <div class="d-flex mt-2 mobile-d-block" id="founder-detail">
                     <img src="img/founder.png"
                     id="founder-img"
                      alt="Naveen Rajasekar">
-                    <div class="pr-10">
-                        <div id="founder-info" class="pt-2 p-1"
+                    <div class="mobile-p0">
+                        <div id="founder-info" class="mobile-p0 pr-10 pt-2 p-1"
                         data-aos="fade-up"
-                        data-aos-anchor-placement="bottom-bottom"
+                        data-aos-anchor-placement="center-bottom"
                         data-aos-duration="2000"
                         >
                             <p class="p-2 pl-3">
@@ -142,7 +150,7 @@
                                     </i>    
                                 </small>
                             </p>
-                            <div class="mt-1 pl-3">
+                            <div class="mt-1 pl-3 pb-2">
                                 <strong>Naveen Rajasekar</strong> - <small>Founder</small>
                             </div>
                         </div>
@@ -427,7 +435,7 @@
             </div>
         </section>
         <section>
-            <div class="d-flex df-around bg-black p-2">
+            <div class="d-flex df-around bg-black p-2 mobile-d-block">
                 <div>
                     <img src="img/our-partner-1.jpg" width="100px" alt="">
                 </div>
