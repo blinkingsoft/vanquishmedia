@@ -1,0 +1,127 @@
+
+    :root{
+        --background-color: #04151F;
+        --text-color: whitesmoke;
+        --highlight-color-1: orange;
+        --highlight-color-2: yellow;
+        --background-gray: rgba(255, 255, 255, 0.1);
+        --title-text: "Kaushan Script", cursive;
+        --heading-font: "Bebas Neue", sans-serif;
+    }
+    .bg-black{
+        background-color: black;
+    }
+    .bg-white{
+        background-color: white;
+    }
+    .bg-transparent{
+        background-color: transparent;
+    }
+
+    body{
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-size: 18px;
+        font-family: 'Roboto', Verdana, sans-serif;
+    }
+    p{
+        line-height: 26px;
+    }
+    .title-text{
+        font-family: var(--title-text);
+    }
+    .heading-text{
+        font-family: var(--heading-font);
+    }
+    .text-black{
+        color: var(--background-color);
+    }
+
+    #founder-img{
+        width: 200px;
+    }
+    #founder-info{
+        background-color: var(--background-gray);
+        border-left: 10px solid var(--text-color);
+    }
+    .featurette-card{
+        background-color: var(--background-gray);
+        margin: 10px;
+    }
+    .highlight-color-1{
+        color: var(--highlight-color-1);
+    }
+    .highlight-card{
+        box-shadow: 0px 0px 3px 3px rgba(240, 169, 18, 0.2);
+    }
+    .highlight-card-bg {
+        box-shadow: 0px 0px 0px 0px;
+        background-color: var(--highlight-color-1);
+    }
+    .testimonial-bg{
+        background-color: #222222;
+    }
+    #founder-section, #collaboration-section, #testimonial-section{
+        background: linear-gradient(to right, var(--background-color), black);
+    }
+    footer{
+        background-color: black;
+    }
+    .app-icon {
+        background-color: var(--highlight-color-1);
+        padding: 0.25rem 0.5rem;
+        border-radius: 30px;
+    }
+    .highlight-img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    button{
+        background-color: transparent;
+        color: #ffff;
+    }
+    .fs-75{
+        font-size: 0.75em;
+    }
+    .fs-2{
+        font-size: 2em;
+    }
+    .fs-4{
+        font-size: 3em;
+    }
+    .hero-text{
+        font-size: 72px;
+        font-weight: 700;
+    }
+    .container {
+        padding: 50px 100px;
+    }
+    .poster-img{
+        max-width: 100%;
+    }
+
+
+
+@media only screen and (max-width: 600px) {
+    #highlight-card {
+        display: none;
+    }
+    .mobile-p0{
+        padding: 0px;
+    }
+    .hero-text{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    #founder-detail{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #founder-img{
+        justify-self: center;
+    }
+    .highlight-number{
+        font-family: var(--heading-font);
+        margin-top: 3rem;
+    }
+}
