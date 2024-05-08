@@ -24,6 +24,16 @@
         font-size: 18px;
         font-family: 'Roboto', Verdana, sans-serif;
     }
+    nav {
+        box-shadow: 0 3px 10px 0 rgba(110, 108, 108, 0.979)
+    }
+    nav li a:hover{
+        background-color: lightgrey;
+        color: #04151F;
+        padding: 0.5rem;
+        border-radius: 10px;
+        transition: 1sec;
+    }
     p{
         line-height: 26px;
     }
