@@ -159,24 +159,19 @@ button {
         display: none;
     }
 
-    .mobile-d-block {
-        padding: 0;
-        margin: 4rem;
-        padding-left: 0;
-        justify-content: center;
-        max-height: 5%;
-        font-size: 25px;
-        word-spacing: 10;
-    }
-
     #founder-info {
         padding-right: 0;
         padding: 0rem 1rem 0rem 1rem;
     }
 
+    .Testimonials-content {
+        display: grid;
+        justify-content: center;
+    }
+
     .testimonial-bg {
         margin: 0;
-        padding: 0.5rem;
+        padding: 2rem;
         max-width: 100%;
         max-height: 100%;
     }
@@ -205,7 +200,60 @@ button {
         justify-content: center;
     }
 
-    .Testimonials-content {
-        justify-content: center;
+    .collaboration-section {
+        display: grid;
+        grid-template-columns: 1fr !important;
     }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .collaboration-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-text {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .mobile-d-block {
+        display: flex;
+    }
+
+    #founder-img {
+        width: 200px;
+        height: 20rem;
+        align-self: center;
+    }
+
+    #founder-info {
+        padding: 0;
+        padding-left: 0;
+    }
+
+    .featurette-card {
+        padding: 1rem;
+    }
+
+    .highlight-img {
+        margin-top: 1rem;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .Testimonials-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        padding-left: 1rem;
+    }
+
 }
