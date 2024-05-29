@@ -24,9 +24,6 @@
         font-size: 18px;
         font-family: 'Roboto', Verdana, sans-serif;
     }
-    nav {
-        box-shadow: 0 3px 10px 0 rgba(110, 108, 108, 0.979)
-    }
     nav li a:hover{
         background-color: lightgrey;
         color: #04151F;
@@ -99,6 +96,9 @@
     .fs-4{
         font-size: 3em;
     }
+    .fs-10{
+        font-size: 7em;
+    }
     .hero-text{
         font-size: 72px;
         font-weight: 700;
@@ -107,10 +107,32 @@
         padding: 50px 100px;
     }
     .poster-img{
+        box-shadow: 0px 0px 3px 3px rgba(221, 219, 214, 0.76);
         max-width: 100%;
     }
-
-
+    .poster-img:hover{
+        max-width: 90%;
+        padding: 20px;
+        transition: 0.5s;
+        cursor: pointer;
+        align-items: center;
+    }
+    .poster-content{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .poster-content:hover{
+        z-index: 1;
+        top: 10rem;
+    }
+    .logo{
+        max-width: 3.5rem;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .logo:hover{
+        max-width: 4rem;
+    }
 
 @media only screen and (max-width: 600px) {
     #highlight-card {
