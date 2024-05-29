@@ -133,6 +133,9 @@
     .logo:hover{
         max-width: 4rem;
     }
+    .review-img{
+        border-radius: 80%;
+    }
 
 @media only screen and (max-width: 600px) {
     #highlight-card {
